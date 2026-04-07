@@ -27,7 +27,7 @@ To fully exploit this formulation, we propose a **Motion-aware Hierarchical Fusi
 This architecture utilizes onboard IMU motion information for fine-grained early-stage event filtering and seamlessly optimizes pose estimation in a later-stage factor graph.
 Evaluation shows that EV-Pose achieves a rotation accuracy of 1.76° and a translation accuracy of 7.5mm with a latency of 10.08ms, outperforming baselines by >40% and enabling accurate drone landings.
 
-
+---
 
 ## 📦 1. Prerequisites
 
