@@ -1,4 +1,4 @@
-# 🚁 EV-Pose: Event camera-enhanced Visual Positioning Service
+# 🚁 EV-Pose: Event-enhanced Visual Positioning Service
 
 [![ROS](https://img.shields.io/badge/ROS-Melodic-blue.svg)](#)
 [![C++](https://img.shields.io/badge/C++-14-green.svg)](#)
@@ -31,7 +31,7 @@ sudo apt-get install libpcl-dev
 Pangolin is required for trajectory and point cloud visualization. Please install it from the source:
 
 ```bash
-git clone [https://github.com/stevenlovegrove/Pangolin.git](https://github.com/stevenlovegrove/Pangolin.git)
+git clone https://github.com/stevenlovegrove/Pangolin.git
 cd Pangolin
 mkdir build && cd build
 cmake ..
@@ -48,7 +48,7 @@ Clone the repository and build the ROS workspace using the provided script:
 
 ```bash
 # Clone the repository
-git clone [https://github.com/xxxx/EV-Pose.git](https://github.com/xxxx/EV-Pose.git)
+git clone https://github.com/HaoyangWang00/EV-Pose
 cd EV-Pose
 
 # Grant execution permission and build
